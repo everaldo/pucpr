@@ -1,0 +1,12 @@
+# Site settings
+title: Everaldo Gomes - PUCPR
+email: everaldo.gomes@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  pucpr, everaldo gomes, algoritmos, programação, linguagem c
+baseurl: "/pucpr" # the subpath of your site, e.g. /blog/
+url: "http://everaldo.github.io" # the base hostname & protocol for your site
+#twitter_username: jekyllrb
+github_username:  everaldo
+
+# Build settings
+markdown: kramdown
