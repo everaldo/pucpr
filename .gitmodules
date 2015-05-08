@@ -1,3 +1,3 @@
 [submodule "algoritmos"]
 	path = algoritmos
-	url = git@github.com:everaldo/algoritmos.git
+	url = https://github.com/everaldo/pucpr.git
