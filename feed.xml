@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Everaldo Gomes - PUCPR</title>
+    <description>PUCPR, Algoritmos &amp; Programação, Oficina de Programação II
+</description>
+    <link>http://everaldo.github.io/pucpr/</link>
+    <atom:link href="http://everaldo.github.io/pucpr/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 14 May 2015 13:06:47 -0300</pubDate>
+    <lastBuildDate>Thu, 14 May 2015 13:06:47 -0300</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Exercícios Coding Dojo 14/05/2015 - Engenharia De Alimentos</title>
+        <description>&lt;p&gt;Já estão disponíveis no Eureka e no Github os exercícios do Coding Dojo do dia 14/05/2015&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/everaldo/algoritmos/tree/master/eng_alimentos/coding_dojo/14_maio_2015&quot;&gt;Coding Dojo 14/05/2015&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 14 May 2015 12:59:51 -0300</pubDate>
+        <link>http://everaldo.github.io/pucpr/2015/05/14/exerccios-coding-dojo-14-05-2015-engenharia-de-alimentos.html</link>
+        <guid isPermaLink="true">http://everaldo.github.io/pucpr/2015/05/14/exerccios-coding-dojo-14-05-2015-engenharia-de-alimentos.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Lista De Exercícios Algoritmos E Programação</title>
+        <description>&lt;p&gt;Caros alunos das turmas de Engenharia de Alimentos e Engenharia Civil,
+da disciplina de Algoritmos e Programação.&lt;/p&gt;
+
+&lt;p&gt;Segue abaixo link para as listas de exercícios do Eixo de Algoritmos, conforme
+mencionado nas aulas dessa semana.&lt;/p&gt;
+
+&lt;p&gt;Podem resolver os exercícios com fluxograma, pseudo-código ou código em linguagem C.&lt;/p&gt;
+
+&lt;p&gt;Dúvidas, favor enviar e-mail:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://tinyurl.com/lista-algoritmos-pucpr&quot;&gt;Listas de Exercícios - Link Dropbox&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 08 May 2015 14:52:27 -0300</pubDate>
+        <link>http://everaldo.github.io/pucpr/2015/05/08/lista-de-exerccios-algoritmos-e-programao.html</link>
+        <guid isPermaLink="true">http://everaldo.github.io/pucpr/2015/05/08/lista-de-exerccios-algoritmos-e-programao.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
