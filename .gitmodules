@@ -2,5 +2,5 @@
 	path = algoritmos
 	url = git@github.com:everaldo/algoritmos.git
 [submodule "oficina_programacao_2"]
-	path = oficina_programacao_2
+	path = oficina_programacao
 	url = git@github.com:everaldo/oficina_programacao_2.git
