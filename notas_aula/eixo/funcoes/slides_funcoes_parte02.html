@@ -12082,12 +12082,12 @@ da variável é repassado ao procedimento.</p></section>
 5
 6
 7
-8</pre></div></td><td class="code"><div class="highlight"><pre><span class="n">funcao</span> <span class="n">maior</span><span class="p">(</span><span class="nl">a</span> <span class="p">:</span> <span class="n">inteiro</span><span class="p">,</span> <span class="nl">b</span> <span class="p">:</span> <span class="n">inteiro</span><span class="p">)</span> <span class="o">:</span> <span class="n">inteiro</span>
+8</pre></div></td><td class="code"><div class="highlight"><pre><span class="n">funcao</span> <span class="n">max</span><span class="p">(</span><span class="nl">a</span> <span class="p">:</span> <span class="n">inteiro</span><span class="p">,</span> <span class="nl">b</span> <span class="p">:</span> <span class="n">inteiro</span><span class="p">)</span> <span class="o">:</span> <span class="n">inteiro</span>
 <span class="n">inicio</span>
   <span class="n">se</span><span class="p">(</span><span class="n">a</span> <span class="o">&gt;</span> <span class="n">b</span><span class="p">)</span> <span class="n">entao</span>
-    <span class="n">maior</span> <span class="o">=</span> <span class="n">a</span><span class="p">;</span>
+    <span class="n">max</span> <span class="o">=</span> <span class="n">a</span><span class="p">;</span>
   <span class="n">senao</span>
-    <span class="n">maior</span> <span class="o">=</span> <span class="n">b</span><span class="p">;</span>
+    <span class="n">max</span> <span class="o">=</span> <span class="n">b</span><span class="p">;</span>
   <span class="n">fimse</span>
 <span class="n">fim</span>
 </pre></div>
@@ -12131,7 +12131,7 @@ da variável é repassado ao procedimento.</p></section>
   <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="nl">maior</span> <span class="p">:</span> <span class="n">inteiro</span><span class="p">;</span>
 <span class="n">inicio</span>
   <span class="nf">leia</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">);</span>
-  <span class="n">maior</span> <span class="o">=</span> <span class="n">maior</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">);</span>
+  <span class="n">maior</span> <span class="o">=</span> <span class="n">max</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">);</span>
   <span class="n">imprima</span><span class="p">(</span><span class="err">&#39;</span><span class="n">o</span> <span class="n">maior</span> <span class="n">eh</span> <span class="err">&#39;</span><span class="p">,</span> <span class="n">maior</span><span class="p">);</span>
 <span class="n">fim</span><span class="p">.</span>
 </pre></div>
@@ -12209,16 +12209,16 @@ da variável é repassado ao procedimento.</p></section>
 16
 17</pre></div></td><td class="code"><div class="highlight"><pre><span class="cp">#include &lt;stdio.h&gt;</span>
 
-<span class="kt">int</span> <span class="nf">maior</span><span class="p">(</span><span class="kt">int</span> <span class="n">a</span><span class="p">,</span> <span class="kt">int</span> <span class="n">b</span><span class="p">);</span>
+<span class="kt">int</span> <span class="nf">max</span><span class="p">(</span><span class="kt">int</span> <span class="n">a</span><span class="p">,</span> <span class="kt">int</span> <span class="n">b</span><span class="p">);</span>
 <span class="kt">int</span> <span class="nf">main</span><span class="p">(){</span>
-  <span class="kt">int</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">max</span><span class="p">;</span> <span class="c1">//pode ter o</span>
-  <span class="c1">//mesmo nome</span>
+  <span class="kt">int</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">maior</span><span class="p">;</span> <span class="c1">//não pode ter o</span>
+  <span class="c1">//mesmo nome por isso usamos max/maior</span>
   <span class="n">scanf</span><span class="p">(</span><span class="s">&quot;%d %d&quot;</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">b</span><span class="p">);</span>
-  <span class="n">max</span> <span class="o">=</span> <span class="n">maior</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">);</span>
-  <span class="n">printf</span><span class="p">(</span><span class="s">&quot;o maior eh %d</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span> <span class="n">max</span><span class="p">);</span>
+  <span class="n">maior</span> <span class="o">=</span> <span class="n">max</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">);</span>
+  <span class="n">printf</span><span class="p">(</span><span class="s">&quot;o maior eh %d</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span> <span class="n">maior</span><span class="p">);</span>
   <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
 <span class="p">}</span>
-<span class="kt">int</span> <span class="nf">maior</span><span class="p">(</span><span class="kt">int</span> <span class="n">a</span><span class="p">,</span> <span class="kt">int</span> <span class="n">b</span><span class="p">){</span>
+<span class="kt">int</span> <span class="nf">max</span><span class="p">(</span><span class="kt">int</span> <span class="n">a</span><span class="p">,</span> <span class="kt">int</span> <span class="n">b</span><span class="p">){</span>
   <span class="k">if</span> <span class="p">(</span><span class="n">a</span> <span class="o">&gt;</span> <span class="n">b</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">a</span><span class="p">;</span>
   <span class="k">else</span>
